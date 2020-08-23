@@ -1,0 +1,15 @@
+Flask==1.1.2
+Flask-SQLAlchemy 
+Flask-Table==0.5.0
+geojson==2.5.0
+gmaps==0.9.0
+gunicorn==20.0.4
+json5==0.9.5
+numpy==1.18.5
+pandas==1.0.5
+plotly==4.8.2
+python-dateutil==2.8.1
+SQLAlchemy 
+tqdm 
+traitlets==4.3.3
+typed-ast==1.4.0

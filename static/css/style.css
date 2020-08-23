@@ -1,0 +1,736 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    /* background-color: #F3F3F3; */
+}
+
+#header {
+    /* background-color: yellow; */
+    height: 75px;
+    min-width: 800px;
+    border-bottom: 5px solid #E35205;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: #083e66;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #30C3CD;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+#logo {
+    margin: 15px;
+    /* padding-top: 15px;
+    margin-right: 20px; */
+    float: left;
+}
+
+p {
+    padding: 24px 0;
+}
+
+span.date {
+    padding: 0;
+    color: #43505d;
+    font-size: 10px;
+    margin: 0;
+}
+
+span.small_details {
+    padding: 0;
+    color: #43505d;
+    font-size: 10px;
+    margin: 0;
+}
+
+span.mag_title {
+    color: #e2ebf2;
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: left;
+}
+
+li>p.date {
+    padding: 0;
+    color: #43505d;
+    font-size: 10px;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    /* background-color: yellow; */
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.lead {
+    color: black;
+}
+
+.jumbotron {
+    background: none;
+}
+
+.container-fluid {
+    padding: 0;
+    background-image: url("../images/earthquakbackgroud.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.center-all {
+    width: 800px;
+}
+
+#map {
+    background-color: teal;
+    height: 500px;
+    border-bottom: 5px solid #E35205;
+    min-width: 50%;
+}
+
+#temperature {
+    background-color: #e2ebf2;
+    height: 500px;
+    border-bottom: 5px solid #E35205;
+    min-width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#fact-boxes {
+    /* height: 250px; */
+    margin: 0;
+    padding: 25px 20px 20px 0px;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.tooltip {
+    background-color: #e2ebf2;
+    padding: 5px;
+    border: 1px solid #4c5865;
+}
+
+h2.historic-title {
+    color: #fefefe;
+    padding: 15px 0px 15px 0px;
+    font-size: 25px;
+}
+
+h2.aboutus-title {
+    color: #fefefe;
+    padding: 15px 0px 0px 0px;
+    font-size: 25px;
+}
+
+h2.teamname {
+    font-size: 23px;
+    padding-top: 25px;
+}
+
+.leaflet-container {
+    background: rgb(255, 0, 0);
+    outline: 0;
+}
+
+#california-data {
+    /* height: 500px; */
+    background-color: #083e66;
+    /* min-width: 800px; */
+    border-bottom: 5px solid #E35205;
+    padding: 20px 30px 15px 30px;
+    font-family: 'Asap', sans-serif;
+    color: rgb(231, 231, 231);
+    font-size: 14px;
+}
+
+#historytitle {
+    padding: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#ronamap {
+    height: 300px;
+    /* width: 60%; */
+}
+
+#ronahistoricinfo {
+    color: white;
+    text-align: left;
+    /* width: 40% */
+}
+
+div.collapse>div.card-body {
+    margin: 0px 15px;
+    background-color: white;
+    border: 1px solid rgba(76, 88, 101, .125);
+}
+
+.card {
+    margin: 15px 10px;
+    border: 1px solid rgba(76, 88, 101, .125);
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #e2ebf2;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+.card-text {
+    padding: 10px 0px;
+    color: #45525f;
+}
+
+#aboutus {
+    /* height: 100px; */
+    /* background-color: #F3AD78; */
+    /* min-width: 800px; */
+    background: rgba(243, 173, 120, 0.6);
+    border-bottom: 5px solid #E35205;
+    padding: 0px 35px 0px 45px;
+    margin: 0px;
+}
+
+#footer {
+    height: 300px;
+    background-color: #F3AD78;
+    /* min-width: 800px; */
+    border-bottom: 5px solid #E35205;
+    padding: 20px 30px 15px 30px;
+}
+
+#box1 {
+    width: 100%
+}
+
+#box2 {
+    background-color: #083e66;
+    height: 250px;
+    min-width: 400px;
+    border-bottom: 5px solid #E35205;
+}
+
+.bts-td {
+    width: 350px;
+}
+
+.bts-format {
+    padding: 0;
+    /* height: 350px; */
+    background-image: url("../images/bts-bg.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-color: white;
+    margin-right: 20px;
+    /* padding: 0px 20px 0px 10px; */
+    font-size: 10px;
+    max-width: 460px;
+}
+
+div#test {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.row-specs {
+    height: 300px;
+    background-color: green;
+}
+
+h1 {
+    color: #212529;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    padding: 0;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: #e0f56a;
+    color: #234c5e;
+}
+
+.custom2 .leaflet-popup-tip,
+.custom2 .leaflet-popup-content-wrapper {
+    background: #e9c082;
+    color: #234c5e;
+}
+
+.custom3 .leaflet-popup-tip,
+.custom3 .leaflet-popup-content-wrapper {
+    background: #ff8750;
+    color: #234c5e;
+}
+
+
+/* CSS from the Leaflet-Choropleth documentation */
+
+.legend {
+    padding: 6px 8px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    column-count: 2;
+    width: 180px;
+    height: 76px;
+}
+
+.legend ul {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    list-style-type: none;
+    text-align: center;
+    width: 75px;
+}
+
+.legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+}
+
+.legend2 {
+    padding: 10px;
+    line-height: 18px;
+    color: #555;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.legend2 i {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.range1 {
+    background-color: #e0f56a;
+}
+
+.range2 {
+    background-color: #e9c082;
+}
+
+.range3 {
+    background-color: #ff8750;
+}
+
+.legend ul.test {
+    float: right;
+    position: relative;
+}
+
+div.leaflet-popup-content p {
+    font-size: 8px !important;
+    margin: 0;
+    padding: 0;
+}
+
+g>text {
+    font-weight: bold;
+}
+
+g.group_chart {
+    width: 100%;
+}
+
+svg {
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid gray; */
+    margin: 0;
+    padding: 0;
+}
+
+text.axis-text {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.grid {
+    margin: 30px;
+    opacity: .2;
+}
+
+.chart {
+    background-color: #cedfec;
+    height: 245px;
+    margin: 0;
+    padding: 0px;
+}
+
+div#viz {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+div.small_details {
+    font-size: 10px;
+    color: rgb(235, 235, 235);
+    padding: 0;
+    margin: 0;
+}
+
+span.small_details {
+    font-size: 10px;
+    color: #083e66;
+    padding: 0;
+    margin: 0;
+    position: right;
+}
+
+span.small_details a {
+    color: rgb(63, 63, 63);
+}
+
+span.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #083e66;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    /* float:left;  remove */
+}
+
+span.leq {
+    font-size: 16px;
+    font-weight: bold;
+    color: #083e66;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    display: inline-block;
+    /* float:left;  remove */
+}
+
+span.smalltext {
+    margin: 0px 0px 20px 0px;
+}
+
+#footertext {
+    margin: 20px 0px;
+}
+
+
+/* hover over div, underline */
+
+div.col-md-8:hover span.title {
+    text-decoration: underline;
+    text-decoration-color: #38b0c9;
+    text-decoration-thickness: 4px;
+}
+
+div#magnitude_info {
+    font-size: 60px;
+    font-weight: bold;
+    height: 250px;
+    min-width: 120px;
+    width: 120px;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    background-color: #43505D;
+    margin: 0;
+    padding: 15px;
+    vertical-align: top;
+    text-align: left;
+}
+
+p.groupname {
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+}
+
+p.mag-number {
+    -webkit-text-stroke: 3px #212529;
+    -webkit-text-stroke-width: thin;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+    font-size: 50px;
+    text-align: center !important;
+}
+
+div#weather_info {
+    font-size: 14px;
+    font-weight: bold;
+    height: 250px;
+    text-align: left;
+    margin: 0;
+    padding: 15px 0px 0px 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+div.col-7>ul {
+    font-size: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+}
+
+ul>li {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 7px 0 0 0;
+    margin-left: 0;
+    list-style-type: none;
+    color: black;
+}
+
+ul#bts {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+ul#bts>li {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 0;
+    list-style-type: none;
+    color: black;
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+ul#rona {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: rgb(235, 235, 235);
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+ul#rona>li {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 0;
+    list-style-type: none;
+    color: rgb(235, 235, 235);
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+ul>li a {
+    color: #083e66;
+    font-weight: bold;
+}
+
+circle {
+    fill: pink;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+circle.active {
+    fill: red;
+}
+
+circle.inactive {
+    fill: gray;
+}
+
+.col,
+.col-lg,
+.col-md {
+    padding: 0px 0px 0px 0px;
+}
+
+td {
+    padding: 10px 30px 0px 0px;
+    text-align: center;
+    width: 50%;
+}
+
+.textwrap {
+    float: right;
+    margin: 10px;
+}
+
+#bts-table {
+    /* width: 90%; */
+    font-size: 12px;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    float: right;
+}
+
+.latest5holder {
+    width: 52%;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+th#section {
+    text-align: center;
+}
+
+td#section {
+    width: 75px;
+}
+
+.table td,
+.table th {
+    padding: .3rem
+}
+
+
+/* 
+@keyframes mymove {
+    50% {
+        padding: 15px;
+    }
+} */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+
+/* // No media query since this is the default in Bootstrap */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    ...
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #fact-boxes {
+        min-width: 800px;
+    }
+    #aboutus {
+        min-width: 100%;
+    }
+    #header {
+        min-width: 100%;
+    }
+    #california-data {
+        min-width: 100%;
+    }
+    #footer {
+        min-width: 100%;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #map {
+        min-width: 400px;
+    }
+    #temperature {
+        min-width: 400px;
+    }
+    .justify-content:;
+    #fact-boxes {
+        min-width: 800px;
+    }
+    #aboutus {
+        min-width: 800px;
+    }
+    #header {
+        min-width: 800px;
+    }
+    #california-data {
+        min-width: 800px;
+    }
+    #footer {
+        min-width: 800px;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    #map {
+        min-width: 400px;
+    }
+    #temperature {
+        min-width: 400px;
+    }
+    #fact-boxes {
+        min-width: 800px;
+    }
+    #aboutus {
+        min-width: 800px;
+    }
+    #header {
+        min-width: 800px;
+    }
+    #california-data {
+        min-width: 800px;
+    }
+    #footer {
+        min-width: 800px;
+    }
+}
